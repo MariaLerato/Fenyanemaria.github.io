@@ -1,0 +1,159 @@
+body,html{font-family:cursive !important;
+background-color: beige;}
+.main-header {
+    width: 100%;
+    height: 150px;
+    float:left;
+    display: flex;
+    margin-bottom:2px;
+    align-content: center;
+}
+.main-header div:first-child{
+    width: 100px;
+    height: auto;
+    
+
+}
+.main-header-content{
+    width: calc(100% -100px );
+    padding: 15px;
+
+}
+.main-header-content img{
+    width: 100%;
+    border-radius: 40%;
+
+}
+.main-header-content h1{
+    padding-right: 20px;
+    color:rosybrown;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size:30px;
+    align-self: center;
+    float:right;
+    
+
+}
+.main-header-content h1:hover{
+    color:black;
+    font-size:large;
+    border-bottom: 0.2px blueviolet solid;
+    transition: 2s;
+    font-style: oblique;
+}
+
+/* banner */
+.banner-container{
+    background-image:url("mountains_reflection_wood_canada_colors_45566_1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    float:left;
+    padding-bottom: 0%;
+    height:280px;
+}
+.banner-details-container{
+    width:100%;
+    float: left;
+    /* background-color: rgb(0,0,0.7); */
+
+    /* opacity: 0.7; */
+    display: flex;
+    justify-content:left;
+}
+.banner-details-container div:first-child{
+    width:50%;
+    padding-left: 3%;
+    margin-left: 1%;
+}
+.banner-details{
+    width:20%;
+    color:white;
+    padding:1px;
+    padding-left: 2%;
+    
+}
+.banner-details h1{
+    text-transform: uppercase;
+    font-size: 45px;
+
+}
+.divider{
+    width: 100px;
+    float:left;
+    border:4px red solid;
+    border-radius: 10px;
+
+}
+.banner-details form input{
+    width:100%;
+    height:40px;
+    padding-left: 3%;
+    padding-top: 3%;
+    outline: none;  
+    margin: 4px 2px 3px 4px;
+
+}
+.banner-details form input::placeholder{
+    color:gray;
+    font-weight: lighter;
+    font-size:12px;
+}
+.banner-details form button{
+    width:100%;
+    color:black;
+    height:40px;
+    font-weight: bolder;
+    font-size:14px;
+    text-transform: uppercase;
+    background-color: red;
+    border:none !important;
+}
+.resume-content{
+    margin-top: 2%;
+    padding: 2%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+    border-bottom: grey 0.1px solid;
+}
+.resume-header{
+    width:20%;
+}
+.resume-des{
+    margin:2% 1% 2% 0%;
+    width: calc(100%-20%);
+
+}
+.footer{
+    width:100%;
+    display:flex;
+    border-bottom: 2px red solid;
+}
+.footer div:first-child{
+    width: 80px;
+
+}
+.footer-content{
+    width: calc(100% - 80px);
+    padding: 20px;
+}
+.footer-content img{
+    width:100%;
+}
+.footer-content ul{
+    list-style-type:disc !important;
+    text-align: right;
+    margin-top: 10px;
+}
+.footer-content ul li{
+    display: inline;
+    padding: 10px;
+    color:teal;
+}
+.footer div:last-child:hover{
+    color:tan;
+    border-bottom: yellowgreen;
+    transition:2s;
+}
